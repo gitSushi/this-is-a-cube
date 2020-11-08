@@ -1,0 +1,217 @@
+{
+    "asset" : {
+        "generator" : "Khronos glTF Blender I/O v1.3.48",
+        "version" : "2.0"
+    },
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                0,
+                1,
+                2,
+                3
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "name" : "Light",
+            "rotation" : [
+                0.38175731897354126,
+                0.0900261402130127,
+                -0.2507166862487793,
+                0.8850411176681519
+            ],
+            "translation" : [
+                2.9897217750549316,
+                3.4302191734313965,
+                3.9975690841674805
+            ]
+        },
+        {
+            "name" : "Camera",
+            "rotation" : [
+                0.48421186208724976,
+                0.3343329131603241,
+                -0.2071308195590973,
+                0.7815735340118408
+            ],
+            "translation" : [
+                7.891895771026611,
+                4.644250392913818,
+                7.6633429527282715
+            ]
+        },
+        {
+            "name" : "Suzanne"
+        },
+        {
+            "mesh" : 0,
+            "name" : "Text",
+            "rotation" : [
+                0.7071068286895752,
+                0,
+                0,
+                0.7071068286895752
+            ],
+            "translation" : [
+                0,
+                0,
+                1
+            ]
+        }
+    ],
+    "animations" : [
+        {
+            "channels" : [
+                {
+                    "sampler" : 0,
+                    "target" : {
+                        "node" : 1,
+                        "path" : "translation"
+                    }
+                },
+                {
+                    "sampler" : 1,
+                    "target" : {
+                        "node" : 1,
+                        "path" : "rotation"
+                    }
+                }
+            ],
+            "name" : "CameraAction.001",
+            "samplers" : [
+                {
+                    "input" : 4,
+                    "interpolation" : "LINEAR",
+                    "output" : 5
+                },
+                {
+                    "input" : 4,
+                    "interpolation" : "LINEAR",
+                    "output" : 6
+                }
+            ]
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "Text",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1,
+                        "TEXCOORD_0" : 2
+                    },
+                    "indices" : 3
+                }
+            ]
+        }
+    ],
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5126,
+            "count" : 4866,
+            "max" : [
+                3.9892995357513428,
+                0,
+                0.8610000014305115
+            ],
+            "min" : [
+                -3.9500997066497803,
+                0,
+                -0.4774000346660614
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 4866,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5126,
+            "count" : 4866,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 3,
+            "componentType" : 5123,
+            "count" : 10722,
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 4,
+            "componentType" : 5126,
+            "count" : 197,
+            "max" : [
+                8.333333333333334
+            ],
+            "min" : [
+                0.16666666666666666
+            ],
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 5,
+            "componentType" : 5126,
+            "count" : 197,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 6,
+            "componentType" : 5126,
+            "count" : 197,
+            "type" : "VEC4"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 58392,
+            "byteOffset" : 0
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 58392,
+            "byteOffset" : 58392
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 38928,
+            "byteOffset" : 116784
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 21444,
+            "byteOffset" : 155712
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 788,
+            "byteOffset" : 177156
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 2364,
+            "byteOffset" : 177944
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 3152,
+            "byteOffset" : 180308
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 183460,
+            "uri" : "this-is-a-cube.bin"
+        }
+    ]
+}
